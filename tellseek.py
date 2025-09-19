@@ -1,0 +1,6 @@
+f=open('example.txt','w')
+f.write('tell seek is solid methods')
+fff=open('example.txt','r')
+print('intial position :',fff.tell())
+fff.seek(5)
+print('position after seek',fff.tell())
